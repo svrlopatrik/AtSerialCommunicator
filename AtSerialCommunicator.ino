@@ -71,7 +71,7 @@ char* removeNlCr(char* data, int size) {
 }
 
 char* sendAtCommand(char* command) {
-  Serial1.write(addNlCr(command, strlen(command)), strlen(command) + 2);  // +1 - add Cr (Nl replace ending character)
+  Serial1.write(addNlCr(command, strlen(command)), strlen(command) + 2);  // +2 - NL and CR
   delay(100);
 
   int availableSize = Serial1.available();
