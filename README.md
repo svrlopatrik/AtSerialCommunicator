@@ -1,4 +1,4 @@
-# AtSerialCommunicator
+# AT Serial Communicator
 Serial communicator is able to send AT commands from Arduino Leonardo-like devices (SparkFun Pro Micro, Fio v3) to a AT command supported device (AT-09, HC-05, ESP8266, etc.). According to documentation on Arduino's website "Arduino Leonardo board uses **Serial1** to communicate via TTL (5V) serial on pins 0 (RX) and 1 (TX). **Serial** is reserved for USB CDC communication."
 
 
